@@ -15,10 +15,51 @@
 		B312D07C182EE02300DDA903 /* GPSCommunication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B312D05F182EE02300DDA903 /* GPSCommunication.framework */; };
 		B312D082182EE02300DDA903 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B312D080182EE02300DDA903 /* InfoPlist.strings */; };
 		B312D084182EE02300DDA903 /* GPSCommunicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B312D083182EE02300DDA903 /* GPSCommunicationTests.m */; };
+		B312D094182EE1D600DDA903 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B312D062182EE02300DDA903 /* Cocoa.framework */; };
+		B312D09A182EE1D600DDA903 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B312D098182EE1D600DDA903 /* InfoPlist.strings */; };
+		B312D09C182EE1D600DDA903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B312D09B182EE1D600DDA903 /* main.m */; };
+		B312D0A0182EE1D600DDA903 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B312D09E182EE1D600DDA903 /* Credits.rtf */; };
+		B312D0A3182EE1D600DDA903 /* GDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B312D0A2182EE1D600DDA903 /* GDAppDelegate.m */; };
+		B312D0A6182EE1D600DDA903 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B312D0A4182EE1D600DDA903 /* MainMenu.xib */; };
+		B312D0A8182EE1D600DDA903 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B312D0A7182EE1D600DDA903 /* Images.xcassets */; };
+		B312D0AE182EE1D700DDA903 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B312D077182EE02300DDA903 /* XCTest.framework */; };
+		B312D0AF182EE1D700DDA903 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B312D062182EE02300DDA903 /* Cocoa.framework */; };
+		B312D0B7182EE1D700DDA903 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B312D0B5182EE1D700DDA903 /* InfoPlist.strings */; };
+		B312D0B9182EE1D700DDA903 /* GPSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B312D0B8182EE1D700DDA903 /* GPSDemoTests.m */; };
+		B312D0C2182EE25000DDA903 /* GLEarthmateUSB.h in Headers */ = {isa = PBXBuildFile; fileRef = B312D0C0182EE25000DDA903 /* GLEarthmateUSB.h */; };
+		B312D0C3182EE25000DDA903 /* GLEarthmateUSB.m in Sources */ = {isa = PBXBuildFile; fileRef = B312D0C1182EE25000DDA903 /* GLEarthmateUSB.m */; };
+		B312D0C6182EE28500DDA903 /* GLSiRFBinary.h in Headers */ = {isa = PBXBuildFile; fileRef = B312D0C4182EE28500DDA903 /* GLSiRFBinary.h */; };
+		B312D0C7182EE28500DDA903 /* GLSiRFBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = B312D0C5182EE28500DDA903 /* GLSiRFBinary.m */; };
+		B312D0CA182EE2A400DDA903 /* GLNMEA.h in Headers */ = {isa = PBXBuildFile; fileRef = B312D0C8182EE2A400DDA903 /* GLNMEA.h */; };
+		B312D0CB182EE2A400DDA903 /* GLNMEA.m in Sources */ = {isa = PBXBuildFile; fileRef = B312D0C9182EE2A400DDA903 /* GLNMEA.m */; };
+		B312D0CE182EE2CB00DDA903 /* GLRockwellBinary.h in Headers */ = {isa = PBXBuildFile; fileRef = B312D0CC182EE2CB00DDA903 /* GLRockwellBinary.h */; };
+		B312D0CF182EE2CB00DDA903 /* GLRockwellBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = B312D0CD182EE2CB00DDA903 /* GLRockwellBinary.m */; };
+		B312D0D2182EE2F100DDA903 /* GLEarthmateSerial.h in Headers */ = {isa = PBXBuildFile; fileRef = B312D0D0182EE2F100DDA903 /* GLEarthmateSerial.h */; };
+		B312D0D3182EE2F100DDA903 /* GLEarthmateSerial.m in Sources */ = {isa = PBXBuildFile; fileRef = B312D0D1182EE2F100DDA903 /* GLEarthmateSerial.m */; };
+		B312D0D6182EE33B00DDA903 /* GLPharos.h in Headers */ = {isa = PBXBuildFile; fileRef = B312D0D4182EE33B00DDA903 /* GLPharos.h */; };
+		B312D0D7182EE33B00DDA903 /* GLPharos.m in Sources */ = {isa = PBXBuildFile; fileRef = B312D0D5182EE33B00DDA903 /* GLPharos.m */; };
+		B312D0D9182EE57E00DDA903 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B312D0D8182EE57E00DDA903 /* IOKit.framework */; };
+		B312D0DB182EE71700DDA903 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B312D0DA182EE71700DDA903 /* CoreFoundation.framework */; };
+		B312D0DE182EE80400DDA903 /* GPSCommunication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B312D05F182EE02300DDA903 /* GPSCommunication.framework */; };
+		B312D0E1182EEA9700DDA903 /* DumpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B312D0E0182EEA9700DDA903 /* DumpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B312D07A182EE02300DDA903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B312D056182EE02300DDA903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B312D05E182EE02300DDA903;
+			remoteInfo = GPSCommunication;
+		};
+		B312D0B0182EE1D700DDA903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B312D056182EE02300DDA903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B312D092182EE1D600DDA903;
+			remoteInfo = GPSDemo;
+		};
+		B312D0DC182EE7FE00DDA903 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B312D056182EE02300DDA903 /* Project object */;
 			proxyType = 1;
@@ -43,6 +84,37 @@
 		B312D07F182EE02300DDA903 /* GPSCommunicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPSCommunicationTests-Info.plist"; sourceTree = "<group>"; };
 		B312D081182EE02300DDA903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B312D083182EE02300DDA903 /* GPSCommunicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSCommunicationTests.m; sourceTree = "<group>"; };
+		B312D093182EE1D600DDA903 /* GPSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B312D097182EE1D600DDA903 /* GPSDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPSDemo-Info.plist"; sourceTree = "<group>"; };
+		B312D099182EE1D600DDA903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B312D09B182EE1D600DDA903 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B312D09D182EE1D600DDA903 /* GPSDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPSDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B312D09F182EE1D600DDA903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B312D0A1182EE1D600DDA903 /* GDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDAppDelegate.h; sourceTree = "<group>"; };
+		B312D0A2182EE1D600DDA903 /* GDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDAppDelegate.m; sourceTree = "<group>"; };
+		B312D0A5182EE1D600DDA903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B312D0A7182EE1D600DDA903 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B312D0AD182EE1D600DDA903 /* GPSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B312D0B4182EE1D700DDA903 /* GPSDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPSDemoTests-Info.plist"; sourceTree = "<group>"; };
+		B312D0B6182EE1D700DDA903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B312D0B8182EE1D700DDA903 /* GPSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSDemoTests.m; sourceTree = "<group>"; };
+		B312D0C0182EE25000DDA903 /* GLEarthmateUSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLEarthmateUSB.h; path = GPSCommunication/Devices/GLEarthmateUSB.h; sourceTree = "<group>"; };
+		B312D0C1182EE25000DDA903 /* GLEarthmateUSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLEarthmateUSB.m; path = GPSCommunication/Devices/GLEarthmateUSB.m; sourceTree = "<group>"; };
+		B312D0C4182EE28500DDA903 /* GLSiRFBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLSiRFBinary.h; path = GPSCommunication/Protocols/GLSiRFBinary.h; sourceTree = "<group>"; };
+		B312D0C5182EE28500DDA903 /* GLSiRFBinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLSiRFBinary.m; path = GPSCommunication/Protocols/GLSiRFBinary.m; sourceTree = "<group>"; };
+		B312D0C8182EE2A400DDA903 /* GLNMEA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLNMEA.h; path = GPSCommunication/Protocols/GLNMEA.h; sourceTree = "<group>"; };
+		B312D0C9182EE2A400DDA903 /* GLNMEA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLNMEA.m; path = GPSCommunication/Protocols/GLNMEA.m; sourceTree = "<group>"; };
+		B312D0CC182EE2CB00DDA903 /* GLRockwellBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLRockwellBinary.h; path = GPSCommunication/Protocols/GLRockwellBinary.h; sourceTree = "<group>"; };
+		B312D0CD182EE2CB00DDA903 /* GLRockwellBinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLRockwellBinary.m; path = GPSCommunication/Protocols/GLRockwellBinary.m; sourceTree = "<group>"; };
+		B312D0D0182EE2F100DDA903 /* GLEarthmateSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLEarthmateSerial.h; path = GPSCommunication/Devices/GLEarthmateSerial.h; sourceTree = "<group>"; };
+		B312D0D1182EE2F100DDA903 /* GLEarthmateSerial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLEarthmateSerial.m; path = GPSCommunication/Devices/GLEarthmateSerial.m; sourceTree = "<group>"; };
+		B312D0D4182EE33B00DDA903 /* GLPharos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLPharos.h; path = GPSCommunication/Devices/GLPharos.h; sourceTree = "<group>"; };
+		B312D0D5182EE33B00DDA903 /* GLPharos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLPharos.m; path = GPSCommunication/Devices/GLPharos.m; sourceTree = "<group>"; };
+		B312D0D8182EE57E00DDA903 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		B312D0DA182EE71700DDA903 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B312D0DF182EEA9700DDA903 /* DumpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DumpViewController.h; sourceTree = "<group>"; };
+		B312D0E0182EEA9700DDA903 /* DumpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DumpViewController.m; sourceTree = "<group>"; };
+		B312D0E21831B42A00DDA903 /* GLReceiveData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLReceiveData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +122,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B312D0DB182EE71700DDA903 /* CoreFoundation.framework in Frameworks */,
+				B312D0D9182EE57E00DDA903 /* IOKit.framework in Frameworks */,
 				B312D063182EE02300DDA903 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +138,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B312D090182EE1D600DDA903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B312D0DE182EE80400DDA903 /* GPSCommunication.framework in Frameworks */,
+				B312D094182EE1D600DDA903 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B312D0AA182EE1D600DDA903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B312D0AF182EE1D700DDA903 /* Cocoa.framework in Frameworks */,
+				B312D0AE182EE1D700DDA903 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -71,7 +163,11 @@
 			isa = PBXGroup;
 			children = (
 				B312D068182EE02300DDA903 /* GPSCommunication */,
+				B312D08D182EE04E00DDA903 /* Devices */,
+				B312D08E182EE05900DDA903 /* Protocols */,
 				B312D07D182EE02300DDA903 /* GPSCommunicationTests */,
+				B312D095182EE1D600DDA903 /* GPSDemo */,
+				B312D0B2182EE1D700DDA903 /* GPSDemoTests */,
 				B312D061182EE02300DDA903 /* Frameworks */,
 				B312D060182EE02300DDA903 /* Products */,
 			);
@@ -82,6 +178,8 @@
 			children = (
 				B312D05F182EE02300DDA903 /* GPSCommunication.framework */,
 				B312D076182EE02300DDA903 /* GPSCommunicationTests.xctest */,
+				B312D093182EE1D600DDA903 /* GPSDemo.app */,
+				B312D0AD182EE1D600DDA903 /* GPSDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +187,8 @@
 		B312D061182EE02300DDA903 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B312D0DA182EE71700DDA903 /* CoreFoundation.framework */,
+				B312D0D8182EE57E00DDA903 /* IOKit.framework */,
 				B312D062182EE02300DDA903 /* Cocoa.framework */,
 				B312D077182EE02300DDA903 /* XCTest.framework */,
 				B312D064182EE02300DDA903 /* Other Frameworks */,
@@ -109,6 +209,7 @@
 		B312D068182EE02300DDA903 /* GPSCommunication */ = {
 			isa = PBXGroup;
 			children = (
+				B312D0E21831B42A00DDA903 /* GLReceiveData.h */,
 				B312D06F182EE02300DDA903 /* GPSCommunication.h */,
 				B312D070182EE02300DDA903 /* GPSCommunication.m */,
 				B312D069182EE02300DDA903 /* Supporting Files */,
@@ -144,6 +245,76 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B312D08D182EE04E00DDA903 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				B312D0C0182EE25000DDA903 /* GLEarthmateUSB.h */,
+				B312D0C1182EE25000DDA903 /* GLEarthmateUSB.m */,
+				B312D0D0182EE2F100DDA903 /* GLEarthmateSerial.h */,
+				B312D0D1182EE2F100DDA903 /* GLEarthmateSerial.m */,
+				B312D0D4182EE33B00DDA903 /* GLPharos.h */,
+				B312D0D5182EE33B00DDA903 /* GLPharos.m */,
+			);
+			name = Devices;
+			sourceTree = "<group>";
+		};
+		B312D08E182EE05900DDA903 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B312D0C4182EE28500DDA903 /* GLSiRFBinary.h */,
+				B312D0C5182EE28500DDA903 /* GLSiRFBinary.m */,
+				B312D0C8182EE2A400DDA903 /* GLNMEA.h */,
+				B312D0C9182EE2A400DDA903 /* GLNMEA.m */,
+				B312D0CC182EE2CB00DDA903 /* GLRockwellBinary.h */,
+				B312D0CD182EE2CB00DDA903 /* GLRockwellBinary.m */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		B312D095182EE1D600DDA903 /* GPSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B312D0A1182EE1D600DDA903 /* GDAppDelegate.h */,
+				B312D0A2182EE1D600DDA903 /* GDAppDelegate.m */,
+				B312D0A4182EE1D600DDA903 /* MainMenu.xib */,
+				B312D0A7182EE1D600DDA903 /* Images.xcassets */,
+				B312D096182EE1D600DDA903 /* Supporting Files */,
+				B312D0DF182EEA9700DDA903 /* DumpViewController.h */,
+				B312D0E0182EEA9700DDA903 /* DumpViewController.m */,
+			);
+			path = GPSDemo;
+			sourceTree = "<group>";
+		};
+		B312D096182EE1D600DDA903 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B312D097182EE1D600DDA903 /* GPSDemo-Info.plist */,
+				B312D098182EE1D600DDA903 /* InfoPlist.strings */,
+				B312D09B182EE1D600DDA903 /* main.m */,
+				B312D09D182EE1D600DDA903 /* GPSDemo-Prefix.pch */,
+				B312D09E182EE1D600DDA903 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B312D0B2182EE1D700DDA903 /* GPSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B312D0B8182EE1D700DDA903 /* GPSDemoTests.m */,
+				B312D0B3182EE1D700DDA903 /* Supporting Files */,
+			);
+			path = GPSDemoTests;
+			sourceTree = "<group>";
+		};
+		B312D0B3182EE1D700DDA903 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B312D0B4182EE1D700DDA903 /* GPSDemoTests-Info.plist */,
+				B312D0B5182EE1D700DDA903 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -151,6 +322,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B312D0D6182EE33B00DDA903 /* GLPharos.h in Headers */,
+				B312D0C6182EE28500DDA903 /* GLSiRFBinary.h in Headers */,
+				B312D0C2182EE25000DDA903 /* GLEarthmateUSB.h in Headers */,
+				B312D0CA182EE2A400DDA903 /* GLNMEA.h in Headers */,
+				B312D0D2182EE2F100DDA903 /* GLEarthmateSerial.h in Headers */,
+				B312D0CE182EE2CB00DDA903 /* GLRockwellBinary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +370,42 @@
 			productReference = B312D076182EE02300DDA903 /* GPSCommunicationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B312D092182EE1D600DDA903 /* GPSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B312D0BA182EE1D700DDA903 /* Build configuration list for PBXNativeTarget "GPSDemo" */;
+			buildPhases = (
+				B312D08F182EE1D600DDA903 /* Sources */,
+				B312D090182EE1D600DDA903 /* Frameworks */,
+				B312D091182EE1D600DDA903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B312D0DD182EE7FE00DDA903 /* PBXTargetDependency */,
+			);
+			name = GPSDemo;
+			productName = GPSDemo;
+			productReference = B312D093182EE1D600DDA903 /* GPSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B312D0AC182EE1D600DDA903 /* GPSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B312D0BD182EE1D700DDA903 /* Build configuration list for PBXNativeTarget "GPSDemoTests" */;
+			buildPhases = (
+				B312D0A9182EE1D600DDA903 /* Sources */,
+				B312D0AA182EE1D600DDA903 /* Frameworks */,
+				B312D0AB182EE1D600DDA903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B312D0B1182EE1D700DDA903 /* PBXTargetDependency */,
+			);
+			name = GPSDemoTests;
+			productName = GPSDemoTests;
+			productReference = B312D0AD182EE1D600DDA903 /* GPSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +418,9 @@
 					B312D075182EE02300DDA903 = {
 						TestTargetID = B312D05E182EE02300DDA903;
 					};
+					B312D0AC182EE1D600DDA903 = {
+						TestTargetID = B312D05E182EE02300DDA903;
+					};
 				};
 			};
 			buildConfigurationList = B312D059182EE02300DDA903 /* Build configuration list for PBXProject "GPSCommunication" */;
@@ -213,6 +429,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B312D055182EE02300DDA903;
 			productRefGroup = B312D060182EE02300DDA903 /* Products */;
@@ -221,6 +438,8 @@
 			targets = (
 				B312D05E182EE02300DDA903 /* GPSCommunication */,
 				B312D075182EE02300DDA903 /* GPSCommunicationTests */,
+				B312D092182EE1D600DDA903 /* GPSDemo */,
+				B312D0AC182EE1D600DDA903 /* GPSDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +461,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B312D091182EE1D600DDA903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B312D09A182EE1D600DDA903 /* InfoPlist.strings in Resources */,
+				B312D0A8182EE1D600DDA903 /* Images.xcassets in Resources */,
+				B312D0A0182EE1D600DDA903 /* Credits.rtf in Resources */,
+				B312D0A6182EE1D600DDA903 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B312D0AB182EE1D600DDA903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B312D0B7182EE1D700DDA903 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -249,7 +487,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B312D0D7182EE33B00DDA903 /* GLPharos.m in Sources */,
+				B312D0D3182EE2F100DDA903 /* GLEarthmateSerial.m in Sources */,
+				B312D0C3182EE25000DDA903 /* GLEarthmateUSB.m in Sources */,
+				B312D0CF182EE2CB00DDA903 /* GLRockwellBinary.m in Sources */,
+				B312D0C7182EE28500DDA903 /* GLSiRFBinary.m in Sources */,
 				B312D071182EE02300DDA903 /* GPSCommunication.m in Sources */,
+				B312D0CB182EE2A400DDA903 /* GLNMEA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +505,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B312D08F182EE1D600DDA903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B312D09C182EE1D600DDA903 /* main.m in Sources */,
+				B312D0E1182EEA9700DDA903 /* DumpViewController.m in Sources */,
+				B312D0A3182EE1D600DDA903 /* GDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B312D0A9182EE1D600DDA903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B312D0B9182EE1D700DDA903 /* GPSDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -268,6 +530,16 @@
 			isa = PBXTargetDependency;
 			target = B312D05E182EE02300DDA903 /* GPSCommunication */;
 			targetProxy = B312D07A182EE02300DDA903 /* PBXContainerItemProxy */;
+		};
+		B312D0B1182EE1D700DDA903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B312D092182EE1D600DDA903 /* GPSDemo */;
+			targetProxy = B312D0B0182EE1D700DDA903 /* PBXContainerItemProxy */;
+		};
+		B312D0DD182EE7FE00DDA903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B312D05E182EE02300DDA903 /* GPSCommunication */;
+			targetProxy = B312D0DC182EE7FE00DDA903 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -284,6 +556,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				B312D081182EE02300DDA903 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B312D098182EE1D600DDA903 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B312D099182EE1D600DDA903 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B312D09E182EE1D600DDA903 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B312D09F182EE1D600DDA903 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B312D0A4182EE1D600DDA903 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B312D0A5182EE1D600DDA903 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B312D0B5182EE1D700DDA903 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B312D0B6182EE1D700DDA903 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -429,6 +733,76 @@
 			};
 			name = Release;
 		};
+		B312D0BB182EE1D700DDA903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPSDemo/GPSDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GPSDemo/GPSDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B312D0BC182EE1D700DDA903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPSDemo/GPSDemo-Prefix.pch";
+				INFOPLIST_FILE = "GPSDemo/GPSDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B312D0BE182EE1D700DDA903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GPSCommunication.framework/Versions/A/GPSCommunication";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPSDemo/GPSDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GPSDemoTests/GPSDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B312D0BF182EE1D700DDA903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GPSCommunication.framework/Versions/A/GPSCommunication";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPSDemo/GPSDemo-Prefix.pch";
+				INFOPLIST_FILE = "GPSDemoTests/GPSDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -454,6 +828,22 @@
 			buildConfigurations = (
 				B312D08B182EE02300DDA903 /* Debug */,
 				B312D08C182EE02300DDA903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B312D0BA182EE1D700DDA903 /* Build configuration list for PBXNativeTarget "GPSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B312D0BB182EE1D700DDA903 /* Debug */,
+				B312D0BC182EE1D700DDA903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B312D0BD182EE1D700DDA903 /* Build configuration list for PBXNativeTarget "GPSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B312D0BE182EE1D700DDA903 /* Debug */,
+				B312D0BF182EE1D700DDA903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
